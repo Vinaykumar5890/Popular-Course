@@ -1,0 +1,191 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.primaryButton {
+  height: 50px;
+  width: 200px;
+}
+.link {
+  list-style-type: none;
+  text-decoration: none;
+}
+.cancel {
+  color: red;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-left: 40px;
+}
+.modalButton {
+  background-color: #7e22ce;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  height: 30px;
+  width: 120px;
+}
+.modalInput {
+  height: 30px;
+  width: 400px;
+}
+.modalHeading {
+  color: #000000;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.list2Heading {
+  color: #7e22ce;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: normal;
+}
+.list2Paragraph {
+  color: #3c3c3c;
+  font-size: 14px;
+  font-weight: normal;
+}
+.list2Para {
+  color: #969696;
+  font-size: 12px;
+  font-weight: normal;
+}
+.list2 {
+  padding-left: 20px;
+}
+.listHeading {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 46px;
+}
+.listColor {
+  background-color: #7e22ce;
+  height: 100px;
+  width: 120px;
+  border-radius: 13px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.unorderdList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1500px;
+}
+.list {
+  border: 2px #999999 solid;
+  border-radius: 15px;
+  height: 120px;
+  width: 330px;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.kygy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.topCreate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.boxNew {
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 6px;
+  margin-top: 5px;
+  font-family: 'Roboto';
+}
+.windowImg {
+  padding-top: 20px;
+}
+.projectImgtable {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.CreateHeading {
+  color: #7e22ce;
+  font-family: Roboto;
+  font-size: 73.41px;
+  font-weight: 700;
+  line-height: 86.03px;
+  text-align: left;
+  margin-top: 100px;
+}
+.CreateHeading2 {
+  color: #7e22ce;
+  font-family: Roboto;
+  font-size: 73.41px;
+  font-weight: 700;
+  line-height: 86.03px;
+  text-align: left;
+  margin-right: 1000px;
+}
+.ProjectsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.projectImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ProjectNotifcation {
+  margin-right: 10px;
+}
+.projectHeading {
+  color: #7e22ce;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.ProjectSetting {
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .ProjectSetting {
+    height: 30px;
+    width: 30px;
+  }
+  .createHeading {
+    font-size: 10px;
+  }
+
+  .ProjectNotifcation {
+    height: 30px;
+    width: 30px;
+  }
+  .projectHeading {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .projectImage {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+  }
+}

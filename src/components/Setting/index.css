@@ -1,0 +1,241 @@
+.account-settings-container {
+  width: 60%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: #5c2d91;
+}
+.dfb {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.country {
+  height: 30px;
+  width: 30px;
+  margin-left: 12px;
+  margin-right: 19px;
+}
+.accountSetting {
+  color: #7e22ce;
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.home-link {
+  text-decoration: none;
+  color: #5c2d91;
+}
+
+.language-selector select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.notifications {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  color: #7e22ce;
+  font-family: Roboto;
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 64.45px;
+  text-align: left;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+
+.input-group {
+  flex: 1;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.subscription-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.subscription-info {
+  font-size: 16px;
+  margin-bottom: 10px;
+  background: linear-gradient(90.02deg, #7e22ce 0.95%, #460281 99.9%);
+  border: 0.72px solid #7e22ce;
+  height: 70px;
+  width: 700px;
+  color: #ffffff;
+  padding-top: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.upgrade-button {
+  margin-left: 20px;
+  background-color: #ffffff;
+  color: 7e22ce;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.cancel-link {
+  color: red;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+.lamaImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.sidebar a.active {
+  background-color: #7e22ce;
+  height: 60px;
+  width: 320px;
+  border-radius: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 60px;
+}
+.podcastFlow {
+  color: #49454f;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'Roboto';
+  padding-left: 20px;
+}
+.svg {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+  padding-left: 17px;
+  margin-right: 10px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 4px;
+}
+.activeHeading {
+  color: #3c3c3c;
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.svg1 {
+  background-color: #a1a5ab;
+  color: #000000;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  padding-left: 18px;
+  padding-top: 12px;
+  margin-right: 10px;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+}
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
